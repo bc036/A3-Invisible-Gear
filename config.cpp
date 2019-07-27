@@ -55,8 +55,8 @@ class CfgPatches
 			//Jets
 			"A3_Characters_F_Jets_Vests";
 		};
-		version="v1.0";
-		requiredVersion=0.1;
+		version=1.0;
+		requiredVersion=1.0;
 	};
 };
 #include "invisible_gear.hpp"

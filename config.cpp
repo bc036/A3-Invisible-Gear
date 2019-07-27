@@ -4,20 +4,20 @@ class CfgPatches
 	{
 		units[]=
 		{
-			//Vanilla
+			//Vanilla Backpacks
 			"bc036_invisible_kitbag",
 			"bc036_invisible_assaultpack",
 			"bc036_invisible_bergen",
 			"bc036_invisible_fieldpack",
 			"bc036_invisible_tacticalpack",
 			"bc036_invisible_carryall",
-			//Apex
+			//Apex Backpacks
 			"bc036_invisible_viperharness",
 			"bc036_invisible_viperlightharness"
 		};
 		weapons[]=
 		{
-			//Vanilla
+			//Vanilla Headgear
 			"bc036_invisible_assassin",
 			"bc036_invisible_combat",
 			"bc036_invisible_crew",
@@ -28,6 +28,7 @@ class CfgPatches
 			"bc036_invisible_light_combat",
 			"bc036_invisible_pilot",
 			"bc036_invisible_protector",
+			//Vanilla Vests
 			"bc036_invisible_carrier_gl",
 			"bc036_invisible_carrier_lite",
 			"bc036_invisible_carrier",
@@ -36,10 +37,10 @@ class CfgPatches
 			"bc036_invisible_lbv",
 			"bc036_invisible_bandollier",
 			"bc036_invisible_tacvest",
-			//Apex
+			//Apex Headgear
 			"bc036_invisible_special_purpose",
 			"bc036_invisible_stealth_combat",
-			//Jets
+			//Jets Vests
 			"bc036_invisible_deckcrew"
 		};
 		author="bc036";
@@ -58,6 +59,4 @@ class CfgPatches
 		requiredVersion=0.1;
 	};
 };
-#include "invisble_backpacks.hpp"
-#include "invisible_headgear.hpp"
-#include "invisible_vests.hpp"
+#include "invisible_gear.hpp"

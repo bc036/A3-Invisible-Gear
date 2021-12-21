@@ -30,6 +30,7 @@ Adds invisible backpacks, headgear, and vests to Arma 3
  - Invisible LBV Harness
  - Invisible Slash Bandollier
  - Invisible Tactical Vest
+ - Invisible Rebreather
  - Invisible Deck Crew Vest
 ## Classnames:
  - bc036_invisible_assaultpack
@@ -60,6 +61,7 @@ Adds invisible backpacks, headgear, and vests to Arma 3
  - bc036_invisible_lbv
  - bc036_invisible_bandollier
  - bc036_invisible_tacvest
+ - bc036_invisible_rebreather
  - bc036_invisible_deckcrew
 
 <a rel="license" href="https://www.bohemia.net/community/licenses/arma-public-license" target="_blank" ><img src="https://data.bistudio.com/images/license/APL.png"><br>This work is licensed under the Arma Public License</a>

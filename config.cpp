@@ -37,6 +37,7 @@ class CfgPatches
 			"bc036_invisible_lbv",
 			"bc036_invisible_bandollier",
 			"bc036_invisible_tacvest",
+			"bc036_invisible_rebreather",
 			//Apex Headgear
 			"bc036_invisible_special_purpose",
 			"bc036_invisible_stealth_combat",
@@ -55,8 +56,10 @@ class CfgPatches
 			//Jets
 			"A3_Characters_F_Jets_Vests";
 		};
-		version=1.0;
-		requiredVersion=1.0;
+		version=1.1;
+		requiredVersion=1.1;
 	};
 };
-#include "invisible_gear.hpp"
+#include "invisble_backpacks.hpp"
+#include "invisible_headgear.hpp"
+#include "invisible_vests.hpp"

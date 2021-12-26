@@ -1,22 +1,21 @@
-class cfgWeapons
-{
 	//Vanilla
 	class VestItem;
 	class V_PlateCarrierGL_rgr;
 	class bc036_invisible_carrier_gl: V_PlateCarrierGL_rgr
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible Carrier GL Rig";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformmodel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformmodel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply140";
 			mass=100;
 			hiddenSelections[]={};
@@ -69,18 +68,19 @@ class cfgWeapons
 	class V_PlateCarrier1_rgr;
 	class bc036_invisible_carrier_lite: V_PlateCarrier1_rgr
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible Carrier Lite";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformmodel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformmodel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply140";
 			mass=80;
 			class HitpointsProtectionInfo
@@ -114,18 +114,19 @@ class cfgWeapons
 	class V_PlateCarrier2_rgr;
 	class bc036_invisible_carrier: V_PlateCarrier2_rgr
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible Carrier Rig";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformmodel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformmodel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply140";
 			mass=100;
 			class HitpointsProtectionInfo
@@ -159,23 +160,24 @@ class cfgWeapons
 	class V_PlateCarrierSpec_rgr;
 	class bc036_invisible_carrier_special: V_PlateCarrierSpec_rgr
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible Carrier Special Rig";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformmodel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformmodel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply100";
 			mass=120;
 			hiddenSelections[]=
 			{
-				"\bc036s_invisible_vests\Data\null_CA.paa";
+				"\bc036s_invisible_gear\Data\null_CA.paa";
 			};
 			class HitpointsProtectionInfo
 			{
@@ -220,18 +222,19 @@ class cfgWeapons
 	class V_Chestrig_rgr;
 	class bc036_invisible_chestrig: V_Chestrig_rgr
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible Chest Rig";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformmodel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformmodel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply140";
 			mass=20;
 			hiddenSelections[]={};
@@ -240,18 +243,19 @@ class cfgWeapons
 	class V_HarnessO_brn;
 	class bc036_invisible_lbv: V_HarnessO_brn
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible LBV Harness";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformmodel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformmodel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply160";
 			mass=30;
 		};
@@ -259,18 +263,19 @@ class cfgWeapons
 	class V_BandollierB_oli;
 	class bc036_invisible_bandollier: V_BandollierB_oli
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible Slash Bandollier";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformModel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformModel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply80";
 			mass=10;
 		};
@@ -278,18 +283,19 @@ class cfgWeapons
 	class V_TacVest_oli;
 	class bc036_invisible_tacvest: V_TacVest_oli
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible Tactical Vest";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformmodel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformmodel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply100";
 			mass=40;
 			class HitpointsProtectionInfo
@@ -323,20 +329,21 @@ class cfgWeapons
 	class V_RebreatherB;
 	class bc036_invisible_rebreather : V_RebreatherB
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author = "bc036";
 		scope = 2;
 		displayName = "Invsible Rebreather";
 		picture = "\A3\characters_f\Data\UI\icon_V_RebreatherB_CA.paa";
-		model = "\bc036s_invisible_vests\Data\null.p3d";
+		model = "\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[] =
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa"
+			"\bc036s_invisible_gear\Data\null_CA.paa"
 		};
 		descriptionShort = "$STR_A3_SP_AL_I";
 		class ItemInfo : VestItem
 		{
-			uniformModel = "\bc036s_invisible_vests\Data\null.p3d";
+			uniformModel = "\bc036s_invisible_gear\Data\null.p3d";
 			containerClass = "Supply0";
 			mass = 80;
 			vestType = "Rebreather";
@@ -372,18 +379,19 @@ class cfgWeapons
 	class V_DeckCrew_blue_F;
 	class bc036_invisible_deckcrew: V_DeckCrew_blue_F
 	{
+		dlc = "bc036_invisible_gear_DLC";
 		author="bc036";
 		scope=2;
 		displayName="Invisible Deck Crew Vest";
-		model="\bc036s_invisible_vests\Data\null.p3d";
+		model="\bc036s_invisible_gear\Data\null.p3d";
 		modelSides[] = { 0,1,2,3 }; //OPF_F=0, BLU_F=1, IND_F=2
 		hiddenSelectionsTextures[]=
 		{
-			"\bc036s_invisible_vests\Data\null_CA.paa";
+			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 		class ItemInfo: VestItem
 		{
-			uniformModel="\bc036s_invisible_vests\Data\null.p3d";
+			uniformModel="\bc036s_invisible_gear\Data\null.p3d";
 			containerClass="Supply50";
 			mass=100;
 			class HitpointsProtectionInfo
@@ -414,4 +422,3 @@ class cfgWeapons
 			};
 		};
 	};
-};

@@ -45,7 +45,7 @@ class CfgPatches
 			"bc036_invisible_deckcrew"
 		};
 		author="bc036";
-		icon="\bc036s_invisible_gear\Data\bc036.paa";
+		icon="\bc036s_invisible_gear\Data\TUO_Emblem_128.paa";
 		requiredAddons[]=
 		{
 			//Vanilla
@@ -60,6 +60,24 @@ class CfgPatches
 		requiredVersion=1.1;
 	};
 };
-#include "invisble_backpacks.hpp"
-#include "invisible_headgear.hpp"
-#include "invisible_vests.hpp"
+class CfgMods
+{
+	class Mod_base;
+	class bc036s_invisible_gear_DLC : Mod_base
+	{
+		dir = "@bc036's Invisible Gear";
+		name = "bc036's Invisible Gear";
+		picture = "\bc036s_invisible_gear\Data\TUO_Emblem_128.paa"; 	// Picture displayed from the expansions menu. Optimal size is 2048x1024
+		logoSmall = "\bc036s_invisible_gear\Data\TUO_Emblem_128.paa";	// Display next to the item added by the mod
+		logo = "\bc036s_invisible_gear\Data\TUO_Emblem_128.paa";		// Logo displayed in the main menu
+	};
+};
+class CfgVehicles
+{
+	#include "invisble_backpacks.hpp"
+};
+class CfgWeapons
+{
+	#include "invisible_headgear.hpp"
+	#include "invisible_vests.hpp"
+};

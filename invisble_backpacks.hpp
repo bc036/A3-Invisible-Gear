@@ -77,6 +77,19 @@
 			"\bc036s_invisible_gear\Data\null_CA.paa";
 		};
 	};
+	class B_Parachute;
+	class bc036_invisble_parachute : B_Parachute
+	{
+		dlc = "bc036_invisible_gear_DLC";
+		author = "bc036";
+		scope = 2;
+		displayName = "Invisible Parachute";
+		model = "\bc036s_invisible_gear\Data\null.p3d";
+		hiddenSelectionsTextures[] =
+		{
+			"\bc036s_invisible_gear\Data\null_CA.paa";
+		};
+	};
 	//Apex
 	class B_ViperHarness_blk_F;
 	class bc036_invisible_viperharness: B_ViperHarness_blk_F

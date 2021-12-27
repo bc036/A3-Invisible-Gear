@@ -2,6 +2,7 @@
 Adds invisible backpacks, headgear, and vests to Arma 3
 
 ## Includes:
+### Backpacks
  - Invisible Assualt Pack
  - Invisible Bergen
  - Invisible Carryall
@@ -10,6 +11,7 @@ Adds invisible backpacks, headgear, and vests to Arma 3
  - Invisible Tactical Pack
  - Invisible Viper Harness
  - Invisible Viper Light Harness
+ ### Headgear
  - Invisible Assassin Helmet
  - Invisible Defender Helmet
  - Invisible Protector Helmet
@@ -22,6 +24,7 @@ Adds invisible backpacks, headgear, and vests to Arma 3
  - Invisible Pilot Helmet
  - Invisible Special Purpose Helmet
  - Invisible Stealth Combat Helmet
+ ### Vests
  - Invisible Carrier GL Rig
  - Invisible Carrier Lite
  - Invisible Carrier Rig

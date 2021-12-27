@@ -11,6 +11,7 @@ class CfgPatches
 			"bc036_invisible_fieldpack",
 			"bc036_invisible_tacticalpack",
 			"bc036_invisible_carryall",
+			"bc036_invisble_parachute",
 			//Apex Backpacks
 			"bc036_invisible_viperharness",
 			"bc036_invisible_viperlightharness"
@@ -56,8 +57,8 @@ class CfgPatches
 			//Jets
 			"A3_Characters_F_Jets_Vests";
 		};
-		version=1.1;
-		requiredVersion=1.1;
+		version=1.2;
+		requiredVersion=1.2;
 	};
 };
 class CfgMods

@@ -36,14 +36,17 @@ Adds invisible backpacks, headgear, and vests to Arma 3
  - Invisible Rebreather
  - Invisible Deck Crew Vest
 ## Classnames:
+### Backpacks
  - bc036_invisible_assaultpack
  - bc036_invisible_bergen
  - bc036_invisible_carryall
  - bc036_invisible_kitbag
  - bc036_invisible_fieldpack
  - bc036_invisible_tacticalpack
+ - bc036_invislbe_parachute
  - bc036_invisible_viperharness
  - bc036_invisible_viperlightharness
+ ### Headgear
  - bc036_invisible_assassin
  - bc036_invisible_defender
  - bc036_invisible_protector
@@ -54,6 +57,7 @@ Adds invisible backpacks, headgear, and vests to Arma 3
  - bc036_invisible_heli_crew
  - bc036_invisible_heli_pilot
  - bc036_invisible_pilot
+ ### Vests
  - bc036_invisible_special_purpose
  - bc036_invisible_stealth_combat
  - bc036_invisible_carrier_gl
